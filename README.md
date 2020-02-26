@@ -1,2 +1,2 @@
 # Uzd2
-Antroji uzduotis
+Studentu duomenu programa
