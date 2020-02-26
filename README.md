@@ -1,2 +1,2 @@
 # Uzd2
-Studentu duomenu programa
+Studentu duomenu programa su vektoriais
