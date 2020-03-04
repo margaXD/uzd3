@@ -1,19 +1,13 @@
-#include <iostream>
-#include <iomanip>
-#include <random>
-#include <string>
-#include <vector>
-#include <fstream>
 #include "head.h"
 
 using namespace std;
 int main()
 {
+    std::vector<mokinys> A; // pagr vektorius
     vector<string> vardas;
     vector<string> pavarde;
     vector<double> vidurkisvec;
     vector<double> medianavec;
-    vector<int> pazymiai;
     ifstream excp;
     excp.exceptions(ifstream::badbit);
     try{
@@ -25,13 +19,12 @@ int main()
     cout<<"Exception'as rastas atidarant/skaitant faila";
     }
     excp.close();
-      ifstream duom("kursiokai.txt");
+    ifstream duom("kursiokai.txt");
     cout<<"2 - skaitymas is failo, 1 - generavimas, 0 - rankinis ivedimas"<<endl;
     int gen;
     cin>>gen;
     long int studSk;
     string laikV, laikP;
-    int laikN;
     if(gen==0){
     cout<<"Iveskite studentu skaiciu (nuo 1 iki 100)"<<endl;
     int studSk;
@@ -58,7 +51,6 @@ int main()
             }
             else if (pazymys==11)break;
             else{
-            pazymiai.push_back(pazymys);
             vid+=pazymys;
             i++;}
         }
@@ -67,7 +59,6 @@ int main()
         cin >> egz;
         vidurkisvec.push_back(vidurkis*0.4 + egz*0.6);
         medianavec.push_back((vidurkis+egz)/2);
-        pazymiai.erase(pazymiai.begin(),pazymiai.begin()+i);
         }
     }
     else {
@@ -110,21 +101,18 @@ int main()
             pavarde.push_back("Pavarde" + to_string(rand()%100));
             for(int j=0; j<15; j++)
             {
-                pazymiai.push_back(rand()%10);
-                vid+=pazymiai.at(j);
+                vid+=rand()%10;
             }
         double vidurkis = vid/15*1.0, egz;
         egz = rand()%10;
         vidurkisvec.push_back(vidurkis*0.4 + egz*0.6);
         medianavec.push_back((vidurkis+egz)/2);
-        pazymiai.erase(pazymiai.begin(),pazymiai.begin()+15);
         }
     }
     else {cout<<"Blogas mokiniu skaicius"; return 0;}
         }
     else {cout << "Klaida su studentu skaiciumi - skaicius per didelis, per mazas arba net ne skaicius"<<endl;
     return 0;}
-    bool vidmed;
     rusiavimas(vardas,pavarde,vidurkisvec,medianavec);
     cout<<"Vardas         "<<"Pavarde       "<<"Galutinis(Vid.) "<<"Galutinis(Med.)"<<endl;
     cout <<"------------------------------------------------"<<endl;
