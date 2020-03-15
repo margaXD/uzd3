@@ -6,7 +6,7 @@ Testavimo sistemos parametrai:
 2. RAM: 12GB
 3. SSD
 Rezultatai vector konteineriui:
-1. 1000 irasu rezultatai:
+  1. 1000 irasu rezultatai:
   - nuskaitymas 0.009s
   - rusiavimas 0.019s
   2. 10000 irasu rezultatai:
@@ -21,4 +21,18 @@ Rezultatai vector konteineriui:
   5. 1000000 irasu rezultatai:
   - nuskatymas 4.104s
   - rusiavimas 109.287s
-
+Rezultatai list konteineriui:
+  1. 1000 irasu rezultatai:
+  - nuskaitymas 0.011s
+  - rusiavimas 0.026s
+  2. 10000 irasu rezultatai:
+  - nuskaitymas 0.094s
+  - rusiavimas  0.124s
+  3. 100000 irasu rezultatai:
+  - nuskaitymas 0.93s
+  - rusiavimas 1.143s
+  4. 1000000 irasu rezultatai:
+  - nuskaitymas 9.389s
+  - rusiavimas 11.337s
+  5. 10000000 irasu rezultatai:
+  EXEPTION - BAD ALLOC
