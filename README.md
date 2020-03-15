@@ -7,6 +7,18 @@ Testavimo sistemos parametrai:
 3. SSD
 Rezultatai vector konteineriui:
 1. 1000 irasu rezultatai:
-  - nuskaitymas 0.001
-  - 
+  - nuskaitymas 0.009s
+  - rusiavimas 0.019s
+  2. 10000 irasu rezultatai:
+  - nuskaitymas 0.013s
+  - rusiavimas 0.116s
+  3. 100000 irasu rezultatai:
+  - nuskaitymas 0.049s
+  - rusiavimas 1.074s
+  4. 1000000 irasu rezultatai:
+  - nuskaitymas 0.404s
+  - rusiavimas 10.704s
+  5. 1000000 irasu rezultatai:
+  - nuskatymas 4.104s
+  - rusiavimas 109.287s
 
