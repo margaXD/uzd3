@@ -22,6 +22,7 @@ Rezultatai vector konteineriui:
   5. 1000000 irasu rezultatai:
   - nuskatymas 4.104s
   - rusiavimas 109.287s
+  
 Rezultatai list konteineriui:
   1. 1000 irasu rezultatai:
   - nuskaitymas 0.011s
@@ -37,3 +38,19 @@ Rezultatai list konteineriui:
   - rusiavimas 11.337s
   5. 10000000 irasu rezultatai:
   EXEPTION - BAD ALLOC
+  
+  Rezultatai deque konteineriui:
+    1. 1000 irasu rezultatai:
+    - nuskaityams 0.009s
+    - rusiavimas 0.021s
+    2. 10000 irasu rezultatai:
+    - nuskaitymas 0.092s
+    - rusiavimas 0.122s
+    3. 100000 irasu rezultatai:
+    - nuskaitymas 0.924s
+    - rusiavimas 1.152s
+    4. 1000000 irasu rezultatai:
+    - nuskaitymas 9.329s
+    - irasymas 11.439s
+    5. 10000000 irasu rezultatai:
+    EXEPTION - BAD ALLOC
