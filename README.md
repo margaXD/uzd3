@@ -38,7 +38,8 @@ Rezultatai list konteineriui:
   - rusiavimas 11.337s
   5. 10000000 irasu rezultatai:
   EXEPTION - BAD ALLOC
-  
+ 
+ 
  Rezultatai deque konteineriui:
     1. 1000 irasu rezultatai:
     - nuskaityams 0.009s
