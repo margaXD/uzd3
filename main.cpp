@@ -73,9 +73,9 @@ int main()
 			end = std::chrono::high_resolution_clock::now();
 			fr << "Duomenu esanciu liste skirstymui prireike " << std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin).count() << " nanosekundziu" << endl;
 			begin = std::chrono::high_resolution_clock::now();
-			if (i == 0)spausdinimas(StudentaiL, Vvardas, Ppavarde, "List Studentai.txt");
-			else spausdinimas(NeroL, Vvardas, Ppavarde, "List Kietiakai.txt");
-			spausdinimas(errorL, Vvardas, Ppavarde, "List Vergsiukai.txt");
+			//if (i == 0)spausdinimas(StudentaiL, Vvardas, Ppavarde, "List Studentai");
+			//else spausdinimas(NeroL, Vvardas, Ppavarde, "List Kietiakai");
+			spausdinimas(errorL, Vvardas, Ppavarde, "List Vergsiukai");
 			end = std::chrono::high_resolution_clock::now();
 			fr << "Duomenims esantiems liste isvesti prireike " << std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin).count() << " nanosekundziu" << endl;
 			StudentaiL.clear();

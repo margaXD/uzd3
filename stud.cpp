@@ -7,7 +7,13 @@ Stud::Stud()
 	egzas = 0;
 	galvid = 0.0;
 }
-
+Stud::Stud(string vardas1, string pavarde1, int egz)
+{
+	vardas = vardas1;
+	pavarde = pavarde1;
+	egzas = egz;
+	galvid = 0;
+}
 Stud::Stud(string vardas1, string pavarde1, std::vector<int> pz, int egz, double gal)
 {
 	vardas = vardas1;
