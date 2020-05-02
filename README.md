@@ -46,14 +46,6 @@ Programa naudojama pamatuoti kiek laiko suskirstomi konteineriai(vector, list ir
 # Versija v2.1
  Rule of three panaudojimas
  	Idėti operatoriai:
-    Kurie kode panaudoti cia:
-    std::istringstream fdd(D);
-            fdd >> Studentai;
-            sum = 0;
-            for (int i = 0; i < 5; i++)
-            {
-                fd >> x;
-                Studentai.nd.push_back(x);
-                sum = sum + x;
-            }
-            Stud X(Studentai);
+  ## https://prnt.sc/s9p3gc
+  Kurie kode panaudoti cia:
+  ## https://prnt.sc/s9p266
