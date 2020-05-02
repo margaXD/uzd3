@@ -43,4 +43,31 @@ Programa naudojama pamatuoti kiek laiko suskirstomi konteineriai(vector, list ir
   - nuskaitymas - 0.350s
   - rusiavimas - 0.959s
   - spausdinimas - 1.19s
- 
+ Versija v2.1
+ Rule of three panaudojimas
+ Idėti operatoriai:
+    friend std::istream& operator >> (Stud& s, std::istream& ifst)
+    {
+		  ifst >> s.vardas >> s.pavarde;
+		  ifst >> s.egzas;
+        return ifst;
+    }
+    bool operator == (const Stud& s)
+    {
+        return (vardas == s.Vardas() && pavarde == s.Pavarde());
+    }
+    bool operator != (const Stud& s)
+    {
+        return !(*this == s);
+    }
+    Kurie kode panaudoti cia:
+    std::istringstream fdd(D);
+            fdd >> Studentai;
+            sum = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                fd >> x;
+                Studentai.nd.push_back(x);
+                sum = sum + x;
+            }
+            Stud X(Studentai);
