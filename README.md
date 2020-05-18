@@ -54,3 +54,6 @@ Programa naudojama pamatuoti kiek laiko suskirstomi konteineriai(vector, list ir
   ## https://prnt.sc/sj50k1
  O senoji klase Stud pasikeite, ir atrodo taip:
   ## https://prnt.sc/sj513g
+ # Versija v2.X FINAL
+ Unit testingui panaudotas catch2 frameworkas.
+ ## https://prnt.sc/sj6y6r
