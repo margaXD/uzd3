@@ -50,7 +50,7 @@ Programa naudojama pamatuoti kiek laiko suskirstomi konteineriai(vector, list ir
   Kurie kode panaudoti cia:
   ## https://prnt.sc/s9p266
 # Versija v2.2
-  Sukurta bazine klase base.
+ Sukurta bazine klase base.
   https://prnt.sc/sj50k1
-  O senoji klase Stud pasikeite, ir atrodo taip
+ O senoji klase Stud pasikeite, ir atrodo taip:
   https://prnt.sc/sj513g
